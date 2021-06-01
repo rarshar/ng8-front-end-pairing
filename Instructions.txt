@@ -1,0 +1,30 @@
+Perform the following exercises against the Angular 8 project provided alongside these instructions.
+Before you begin, the files which require changing in order to finish these tasks are:
+- app/app.component.html
+- app/app.component.scss
+- app/app.component.ts
+
+The data for these tasks is located in:
+app/Data/pokemon.ts
+and is already imported into app.component.ts for you.
+
+You're welcome to use Google and any other resources you'd like.
+
+
+Tasks:
+1. Currently, all pokemon names are being rendered to screen using the pokemon data available. 
+Make the required changes so that the list looks similar to the reference image "pokemonLayout.png".
+
+2. Underneath the All Pokemon list, render all Pokemon which have the "type" of "Grass".
+
+3. In app.component.html, uncomment the "Create your own pokemon" section. 
+Make the required changes so that it's possible to add your own pokemon with a type. 
+This should allow you to add a pokemon with the type of "Grass" and have it appear in your list of pokemon from the previous task.
+
+4. Provide the ability for a user to click on a pokemon tile and add it to a "favourites" list. Render the favourites list underneath the "Create your own pokemon section".
+
+5. Write tests for the functions which have been created.
+
+Don't forget:
+npm install
+ng serve
