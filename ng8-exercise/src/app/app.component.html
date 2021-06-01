@@ -1,0 +1,21 @@
+<div class="page-container">
+
+  <h1>All Pokemon</h1>
+  <div class="container">
+    <div *ngFor="let p of pokemon">
+      <p>Types:</p>
+      <div *ngFor="let type of p.type">
+        <p>{{type}}</p>
+      </div>
+      <h4>{{p.name}}</h4>
+    </div>
+  </div>
+
+  <!-- FOR TASK 3-->
+  <!-- <h1>Create your own pokemon</h1>
+  <label for="name">Name</label>
+  <input id="name"/>
+  <label for="type">type</label>
+  <input id="type"/>
+  <div (click)="add()">Add pokemon</div> -->
+</div>
